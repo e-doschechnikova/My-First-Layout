@@ -1,0 +1,167 @@
+body {
+  background-color: #fffcfc;
+}
+.bamboo {
+  background: url(./img/bamboo.png) no-repeat 102% 110%;
+  background-size: 40%;
+}
+.background {
+  border: 1px solid #595959;
+  margin: 70px;
+
+  background: #ffffff;
+  background: -moz-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #ffffff 1%,
+    #a7ba86 26%,
+    #a7ba86 75%,
+    #ffffff 96%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #ffffff 1%,
+    #a7ba86 26%,
+    #a7ba86 75%,
+    #ffffff 96%
+  );
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #ffffff 1%,
+    #a7ba86 26%,
+    #a7ba86 75%,
+    #ffffff 96%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfc', endColorstr='#f7fdff',GradientType=1 );
+}
+.heading {
+  font-size: 18px;
+  text-align: center;
+  margin: 100px 0 0 0;
+
+  letter-spacing: 10px;
+  font-family: "Georgia" serif;
+  color: #595959;
+}
+.description {
+  text-align: center;
+  color: #233627;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0 150px 30px 150px;
+  font-size: 25px;
+}
+.image {
+  text-align: center;
+}
+.image-two {
+  border: 2px dashed #595959;
+  width: 600px;
+  height: 400px;
+}
+.description-two {
+  font-size: 25px;
+  text-align: center;
+  margin: 50px 0 50px 0;
+  letter-spacing: 2px;
+  font-weight: 0;
+  font-family: "Georgia" serif;
+  color: #595959;
+}
+.text-about {
+  font-size: 16px;
+  color: #233627;
+  text-align: justify;
+  padding: 0 150px 0 150px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 25px;
+  text-indent: 50px;
+}
+.text-live {
+  font-size: 16px;
+  color: #233627;
+  text-align: justify;
+  padding: 0 150px 0 150px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0 0 50px 0;
+  line-height: 25px;
+  text-indent: 50px;
+}
+.text-live-two {
+  font-size: 16px;
+  color: #233627;
+  text-align: justify;
+  padding: 0 150px 0 150px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 25px;
+  text-indent: 50px;
+  margin: 0 0 50px 0;
+}
+.list-questions-one {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.list-questions-two {
+  font-size: 16px;
+  color: #557d5e;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.list-questions-three {
+  font-size: 16px;
+  font-weight: 800;
+  font-style: oblique;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.list-questions-four {
+  font-size: 16px;
+  font-style: oblique;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.list-questions-five {
+  font-size: 16px;
+  color: #595959;
+  text-decoration: overline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.list-questions-six {
+  font-size: 16px;
+  color: #557d5e;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.list-questions-seven {
+  font-size: 16px;
+  color: #fffcfc;
+  text-shadow: 4px 4px 4px #233627;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.read-one {
+  padding: 0 0 0 150px;
+}
+.read-two {
+  background-color: #638a6b;
+  padding: 10px;
+  letter-spacing: 2px;
+  border-radius: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 50px 0 100px 0;
+  box-shadow: 3px 3px 3px 3px #1d3021;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0 0 0 150px;
+}
+ul li {
+  padding-left: 25px;
+  background: url(./img/icon.png) no-repeat 0 2px;
+}
